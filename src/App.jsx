@@ -10,7 +10,6 @@ function App() {
 
   return (
     <>
-      <h1>React world</h1>
       <Suspense fallback={<p>Loading is Leading.....</p>}>
         <Countries countyPromise={countyPromise}></Countries>
       </Suspense>
